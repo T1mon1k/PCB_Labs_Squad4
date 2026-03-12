@@ -3312,7 +3312,10 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:CK_KMS2xxG"
+		(symbol "Switch:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -3321,7 +3324,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "SW"
-				(at 4.318 2.032 0)
+				(at 1.27 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3329,15 +3332,15 @@
 					(justify left)
 				)
 			)
-			(property "Value" "CK_KMS2xxG"
-				(at 0 4.572 0)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "Button_Switch_SMD:SW_SPST_CK_KMS2xxGP"
+			(property "Footprint" ""
 				(at 0 5.08 0)
 				(effects
 					(font
@@ -3346,7 +3349,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.ckswitches.com/media/1482/kms.pdf"
+			(property "Datasheet" "~"
 				(at 0 5.08 0)
 				(effects
 					(font
@@ -3355,7 +3358,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Microminiature SMT Side Actuated, 4.2 x 2.8 x 1.42mm, without pegs, with shield pin"
+			(property "Description" "Push button switch, generic, two pins"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3373,16 +3376,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "*SW*KMS2*G*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "CK_KMS2xxG_0_1"
+			(symbol "SW_Push_0_1"
 				(circle
 					(center -2.032 0)
 					(radius 0.508)
@@ -3400,30 +3394,6 @@
 					)
 					(stroke
 						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 2.54) (xy 3.048 2.54) (xy 3.048 -1.143) (xy -3.048 -1.143) (xy -3.048 2.54) (xy -0.508 2.54)
-					)
-					(stroke
-						(width -0.0254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 2.54) (xy 3.048 2.54) (xy 3.048 -1.143) (xy -3.048 -1.143) (xy -3.048 2.54) (xy -0.508 2.54)
-					)
-					(stroke
-						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -3482,222 +3452,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "CK_KMS2xxG_1_1"
-				(rectangle
-					(start -3.048 2.54)
-					(end 3.048 -1.27)
-					(stroke
-						(width -0.0254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "SH"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Switch:SW_Nidec_CAS-120A1"
-			(pin_names
-				(offset 1)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 4.318 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_Nidec_CAS-120A1"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Switch, single pole double throw"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*Nidec?Copal?CAS?120A*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_Nidec_CAS-120A1_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.651 0.254) (xy 1.651 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 2.54)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 -2.54)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_Nidec_CAS-120A1_1_1"
-				(rectangle
-					(start -3.175 3.81)
-					(end 3.175 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3811,25 +3565,13 @@
 		)
 	)
 	(junction
-		(at 210.82 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "438e8cb3-1e04-4a29-af4d-d0150e8b33ab")
-	)
-	(junction
 		(at 226.06 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "46c6869f-b93b-470e-8611-bc7e2f1b0dd5")
 	)
 	(junction
-		(at 92.71 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "78a83fd7-c34a-4fcd-8de3-922ebb40f20b")
-	)
-	(junction
-		(at 60.96 87.63)
+		(at 58.42 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "795c4223-6ea1-4fdc-baaf-9e0f3938329b")
@@ -3841,19 +3583,25 @@
 		(uuid "972bb96e-9579-4da8-b7b5-b820bc9a5082")
 	)
 	(junction
+		(at 92.71 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5e7db38-1dc3-4876-8e86-4d2429c517ed")
+	)
+	(junction
 		(at 226.06 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b7023ad8-83e5-47f2-950a-b07ab68bba43")
 	)
 	(junction
-		(at 40.64 99.06)
+		(at 38.1 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b8221035-8485-4fa6-9be5-c37d50c4175f")
 	)
 	(junction
-		(at 60.96 99.06)
+		(at 58.42 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cafd3250-cf98-4a61-81d3-f0dbcec85a6d")
@@ -3876,23 +3624,13 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 87.63) (xy 73.66 87.63)
+			(xy 58.42 107.95) (xy 71.12 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1b925248-bfd1-4a79-83f6-40b18ed1ee0e")
-	)
-	(wire
-		(pts
-			(xy 92.71 39.37) (xy 105.41 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c3af436-47ef-4ab0-870f-8dea9cb19005")
 	)
 	(wire
 		(pts
@@ -3916,17 +3654,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 124.46) (xy 210.82 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4570b097-8fa5-4afd-941e-3b6a072f7cc4")
-	)
-	(wire
-		(pts
-			(xy 60.96 99.06) (xy 73.66 99.06)
+			(xy 58.42 119.38) (xy 71.12 119.38)
 		)
 		(stroke
 			(width 0)
@@ -3956,7 +3684,17 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 99.06) (xy 60.96 95.25)
+			(xy 92.71 39.37) (xy 105.41 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b07ea0e4-5c44-4649-9d54-530a8fb9c5e8")
+	)
+	(wire
+		(pts
+			(xy 58.42 119.38) (xy 58.42 115.57)
 		)
 		(stroke
 			(width 0)
@@ -3966,7 +3704,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 87.63) (xy 60.96 87.63)
+			(xy 38.1 107.95) (xy 58.42 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3976,7 +3714,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 95.25) (xy 40.64 99.06)
+			(xy 38.1 115.57) (xy 38.1 119.38)
 		)
 		(stroke
 			(width 0)
@@ -4006,7 +3744,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 99.06) (xy 46.99 99.06)
+			(xy 38.1 119.38) (xy 44.45 119.38)
 		)
 		(stroke
 			(width 0)
@@ -4016,7 +3754,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 99.06) (xy 60.96 99.06)
+			(xy 52.07 119.38) (xy 58.42 119.38)
 		)
 		(stroke
 			(width 0)
@@ -4078,9 +3816,9 @@
 			)
 		)
 	)
-	(global_label "PWR_BAT"
+	(global_label "PWR"
 		(shape input)
-		(at 210.82 133.35 180)
+		(at 226.06 124.46 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4090,7 +3828,7 @@
 		)
 		(uuid "3487b338-d4ce-40a7-bb14-63b1cd39c55b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 199.5496 133.35 0)
+			(at 226.06 131.4366 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4124,29 +3862,7 @@
 	)
 	(global_label "PWR"
 		(shape input)
-		(at 135.89 29.21 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6669c843-597d-46a4-bfaa-c80a2fe8b909")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 128.9134 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PWR"
-		(shape input)
-		(at 233.68 99.06 0)
+		(at 135.89 29.21 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4154,9 +3870,9 @@
 			)
 			(justify left)
 		)
-		(uuid "7c031c98-32d3-46c9-88f3-3ebc23e3fd77")
+		(uuid "6669c843-597d-46a4-bfaa-c80a2fe8b909")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 240.6566 99.06 0)
+			(at 135.89 22.2334 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4234,7 +3950,7 @@
 	)
 	(global_label "EXTAL"
 		(shape input)
-		(at 73.66 99.06 0)
+		(at 71.12 119.38 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4244,7 +3960,7 @@
 		)
 		(uuid "a258994a-b757-4c16-bc8e-2241fed6f346")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 82.088 99.06 0)
+			(at 79.548 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4298,28 +4014,6 @@
 			)
 		)
 	)
-	(global_label "PWR_PROG"
-		(shape input)
-		(at 223.52 101.6 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ba518195-3fce-4cf0-ba00-bff5829c7d01")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.4353 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SWDIO"
 		(shape input)
 		(at 168.91 72.39 0)
@@ -4344,7 +4038,7 @@
 	)
 	(global_label "XTAL"
 		(shape input)
-		(at 73.66 87.63 0)
+		(at 71.12 107.95 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4354,34 +4048,12 @@
 		)
 		(uuid "c7ebbd27-2623-46ab-9f67-0a5c4150d540")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 80.939 87.63 0)
+			(at 78.399 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PWR_BAT"
-		(shape input)
-		(at 223.52 96.52 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d3cc36ff-e1e5-4aab-b338-9715d0b0dd49")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 212.2496 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -4405,6 +4077,73 @@
 				)
 				(justify right)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 92.71 34.29 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "02aa100c-0c98-47ea-adf2-ca258aed4ab2")
+		(property "Reference" "SW2NRST1"
+			(at 98.552 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 98.552 30.226 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+			(at 97.79 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 92.71 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "903bbf43-6bca-4938-b406-7d45d1f21308")
+		)
+		(pin "2"
+			(uuid "c139ffc5-e920-4a0c-9bb5-cccf7e4c0260")
+		)
+		(instances
+			(project "Lab1"
+				(path "/5b477a71-f590-4cf6-b140-b4be217c683d"
+					(reference "SW2NRST1")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -4469,76 +4208,6 @@
 			(project ""
 				(path "/5b477a71-f590-4cf6-b140-b4be217c683d"
 					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:CK_KMS2xxG")
-		(at 76.2 44.45 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0f5227ea-9988-4a86-83c4-f5cdef506b2e")
-		(property "Reference" "SW2"
-			(at 76.2 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CK_KMS2xxG"
-			(at 76.2 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_CK_KMS2xxGP"
-			(at 76.2 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ckswitches.com/media/1482/kms.pdf"
-			(at 76.2 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Microminiature SMT Side Actuated, 4.2 x 2.8 x 1.42mm, without pegs, with shield pin"
-			(at 76.2 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "15e233fb-f1ab-4759-a0d7-6b5177b60ca8")
-		)
-		(pin "SH"
-			(uuid "1f7e03ee-1c24-40a1-bfa4-06c4f9f453a1")
-		)
-		(pin "2"
-			(uuid "7c3f6c75-6e3f-4222-9e30-48a1e6c4ab5a")
-		)
-		(instances
-			(project ""
-				(path "/5b477a71-f590-4cf6-b140-b4be217c683d"
-					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -4615,7 +4284,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 40.64 91.44 0)
+		(at 38.1 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4623,7 +4292,7 @@
 		(dnp no)
 		(uuid "1ac3fe90-d348-450b-833b-addb7c79aed8")
 		(property "Reference" "C5"
-			(at 44.45 90.1699 0)
+			(at 41.91 110.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4632,7 +4301,7 @@
 			)
 		)
 		(property "Value" "C 33 pF"
-			(at 44.45 92.7099 0)
+			(at 41.91 113.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4641,7 +4310,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 41.6052 95.25 0)
+			(at 39.0652 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4650,7 +4319,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 40.64 91.44 0)
+			(at 38.1 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4659,7 +4328,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 40.64 91.44 0)
+			(at 38.1 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4677,72 +4346,6 @@
 			(project "Lab1"
 				(path "/5b477a71-f590-4cf6-b140-b4be217c683d"
 					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 226.06 132.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1e294b13-c1ab-4bfe-9a37-43d8d574669f")
-		(property "Reference" "#PWR02"
-			(at 226.06 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 226.06 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 226.06 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 226.06 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 226.06 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e152ebbe-f01c-4c08-8675-e06119139c6a")
-		)
-		(instances
-			(project ""
-				(path "/5b477a71-f590-4cf6-b140-b4be217c683d"
-					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -4816,103 +4419,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Battery_Cell")
-		(at 226.06 129.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "343a4782-aa92-4d17-b9ca-d3a2d94e6474")
-		(property "Reference" "BT1"
-			(at 229.87 126.4284 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Battery_Cell"
-			(at 229.87 128.9684 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 226.06 128.016 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 226.06 128.016 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single-cell battery"
-			(at 226.06 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "V"
-			(at 226.06 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "DC"
-			(at 226.06 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=+ 2=-"
-			(at 226.06 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c1fe5616-d221-42a5-9389-5b4b5afaa72f")
-		)
-		(pin "1"
-			(uuid "b9bb05de-e5e3-421b-88cc-7e1bc77e3ac7")
-		)
-		(instances
-			(project ""
-				(path "/5b477a71-f590-4cf6-b140-b4be217c683d"
-					(reference "BT1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_02x05_Counter_Clockwise")
 		(at 220.98 50.8 0)
 		(unit 1)
@@ -4938,7 +4444,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_2x05_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical"
 			(at 220.98 50.8 0)
 			(effects
 				(font
@@ -5071,6 +4577,142 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 76.2 44.45 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4cd970ee-186c-4ede-84a2-ff3d6b0ff6c0")
+		(property "Reference" "SW1BOOT1"
+			(at 76.454 49.022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 76.454 51.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+			(at 76.2 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 76.2 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14c77178-b88d-4fa7-87ef-d5c5adcf5735")
+		)
+		(pin "2"
+			(uuid "2965bddf-9b1a-4fe6-8e05-6e142659e3df")
+		)
+		(instances
+			(project ""
+				(path "/5b477a71-f590-4cf6-b140-b4be217c683d"
+					(reference "SW1BOOT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 241.3 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4ebaa285-29af-46ce-b3db-98bae924c99a")
+		(property "Reference" "C3"
+			(at 245.11 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C 0.1 μF"
+			(at 245.11 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 242.2652 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 241.3 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 241.3 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "030c095c-e539-43ec-b5a8-69d7c2999c88")
+		)
+		(pin "2"
+			(uuid "a2ddf61c-78f3-4f61-ae45-0efaee10702f")
+		)
+		(instances
+			(project "Lab1"
+				(path "/5b477a71-f590-4cf6-b140-b4be217c683d"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 210.82 120.65 0)
 		(unit 1)
@@ -5140,75 +4782,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 226.06 120.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5c61ad32-b152-4c88-976a-d630668d81cb")
-		(property "Reference" "C2"
-			(at 229.616 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C 0.1 μF"
-			(at 229.616 122.174 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 227.0252 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 226.06 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 226.06 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "580da166-cfbd-47b2-843d-8be841a23fb1")
-		)
-		(pin "1"
-			(uuid "326a9597-ebf7-41d2-b7c1-df6a3e14fe26")
-		)
-		(instances
-			(project ""
-				(path "/5b477a71-f590-4cf6-b140-b4be217c683d"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 92.71 29.21 180)
 		(unit 1)
@@ -5216,7 +4789,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6089ae90-258b-4a8f-a800-4df2baa45544")
 		(property "Reference" "#PWR07"
 			(at 92.71 22.86 0)
@@ -5228,7 +4800,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 92.7101 25.4 90)
+			(at 90.678 23.876 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5277,7 +4849,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 40.64 99.06 0)
+		(at 38.1 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5286,7 +4858,7 @@
 		(fields_autoplaced yes)
 		(uuid "6113a0cf-a19c-4727-9323-7ecb72e9544d")
 		(property "Reference" "#PWR04"
-			(at 40.64 105.41 0)
+			(at 38.1 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5295,7 +4867,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 40.64 104.14 0)
+			(at 38.1 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5303,7 +4875,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 99.06 0)
+			(at 38.1 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5312,7 +4884,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 99.06 0)
+			(at 38.1 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5321,7 +4893,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 40.64 99.06 0)
+			(at 38.1 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5342,32 +4914,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Crystal")
-		(at 50.8 99.06 0)
+		(lib_id "Device:Battery_Cell")
+		(at 201.93 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "75ab7a15-3321-40c5-9b0f-10da1c0611e5")
-		(property "Reference" "Y1"
-			(at 54.864 93.218 0)
+		(fields_autoplaced yes)
+		(uuid "639187b7-7b3b-414b-894c-6772c089d9a4")
+		(property "Reference" "BT1"
+			(at 205.74 85.7884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "Crystal"
-			(at 54.864 95.25 0)
+		(property "Value" "Battery_Cell"
+			(at 205.74 88.3284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm_HandSoldering"
-			(at 50.8 99.06 0)
+		(property "Footprint" ""
+			(at 201.93 87.376 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5376,7 +4951,170 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 50.8 99.06 0)
+			(at 201.93 87.376 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 201.93 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "V"
+			(at 201.93 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "DC"
+			(at 201.93 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 201.93 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2014d11f-2f6d-4db8-a775-5f616f6ee64e")
+		)
+		(pin "2"
+			(uuid "b0b53fa9-aef3-4fae-97b0-517838dd182d")
+		)
+		(instances
+			(project ""
+				(path "/5b477a71-f590-4cf6-b140-b4be217c683d"
+					(reference "BT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 226.06 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6a6c94ca-4a54-455e-aeab-0bbcc74c8544")
+		(property "Reference" "C2"
+			(at 229.87 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C 0.1 μF"
+			(at 229.87 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 227.0252 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.06 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 226.06 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2acda79d-59e9-4663-aca3-bcd1a15e7f97")
+		)
+		(pin "2"
+			(uuid "e2087333-402e-40aa-abe1-b5ec5552d78d")
+		)
+		(instances
+			(project "Lab1"
+				(path "/5b477a71-f590-4cf6-b140-b4be217c683d"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Crystal")
+		(at 48.26 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "75ab7a15-3321-40c5-9b0f-10da1c0611e5")
+		(property "Reference" "Y1"
+			(at 52.324 113.538 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Crystal"
+			(at 52.324 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm_HandSoldering"
+			(at 48.26 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5385,7 +5123,7 @@
 			)
 		)
 		(property "Description" "Two pin crystal"
-			(at 50.8 99.06 0)
+			(at 48.26 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5403,76 +5141,6 @@
 			(project ""
 				(path "/5b477a71-f590-4cf6-b140-b4be217c683d"
 					(reference "Y1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:CK_KMS2xxG")
-		(at 92.71 34.29 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7f454e1b-35ca-4987-b04c-77f6d134f77c")
-		(property "Reference" "SW3"
-			(at 100.076 32.512 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CK_KMS2xxG"
-			(at 97.282 28.194 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_CK_KMS2xxGP"
-			(at 97.79 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ckswitches.com/media/1482/kms.pdf"
-			(at 97.79 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Microminiature SMT Side Actuated, 4.2 x 2.8 x 1.42mm, without pegs, with shield pin"
-			(at 92.71 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "21e20386-2224-4fe5-bd1b-65b17a1b5816")
-		)
-		(pin "SH"
-			(uuid "b5ef4cfa-9a37-4dee-8922-3f36a2f2f0a6")
-		)
-		(pin "2"
-			(uuid "875477f9-03f7-4ead-b911-aea740bfeedd")
-		)
-		(instances
-			(project "Lab1"
-				(path "/5b477a71-f590-4cf6-b140-b4be217c683d"
-					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -5911,7 +5579,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 60.96 91.44 0)
+		(at 58.42 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5919,7 +5587,7 @@
 		(dnp no)
 		(uuid "a3039ed8-eca2-4f04-ad90-c7be0b4843a6")
 		(property "Reference" "C4"
-			(at 64.77 90.1699 0)
+			(at 62.23 110.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5928,7 +5596,7 @@
 			)
 		)
 		(property "Value" "C 10 pF"
-			(at 64.77 92.7099 0)
+			(at 62.23 113.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5937,7 +5605,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 61.9252 95.25 0)
+			(at 59.3852 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5946,7 +5614,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 60.96 91.44 0)
+			(at 58.42 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5955,7 +5623,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 60.96 91.44 0)
+			(at 58.42 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6043,147 +5711,6 @@
 			(project ""
 				(path "/5b477a71-f590-4cf6-b140-b4be217c683d"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 241.3 120.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "db030c78-6f6c-4d0f-91a2-7ba0feea411d")
-		(property "Reference" "C3"
-			(at 245.11 119.3799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C 0.1 μF"
-			(at 245.11 121.9199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 242.2652 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 241.3 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 241.3 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b18277a7-4b78-4962-b06f-9bfbfe331c4e")
-		)
-		(pin "2"
-			(uuid "e9312c60-e0bd-474f-860a-31d9a3dbbf04")
-		)
-		(instances
-			(project ""
-				(path "/5b477a71-f590-4cf6-b140-b4be217c683d"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Nidec_CAS-120A1")
-		(at 228.6 99.06 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fae7601d-979c-447b-91dc-f05c3958d1f7")
-		(property "Reference" "SW1"
-			(at 228.6 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Nidec_CAS-120A1"
-			(at 228.6 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
-			(at 228.6 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
-			(at 228.6 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Switch, single pole double throw"
-			(at 228.6 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "42e485f5-fa4a-4247-9a70-9a8d2e593005")
-		)
-		(pin "3"
-			(uuid "1e15b2e1-b028-41d2-bb3e-ceda41b1ffa4")
-		)
-		(pin "1"
-			(uuid "f5a01670-8399-412a-ac23-0d61eceaaa96")
-		)
-		(instances
-			(project ""
-				(path "/5b477a71-f590-4cf6-b140-b4be217c683d"
-					(reference "SW1")
 					(unit 1)
 				)
 			)
