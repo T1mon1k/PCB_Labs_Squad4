@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "5b477a71-f590-4cf6-b140-b4be217c683d")
 	(paper "A4")
+	(title_block
+		(title "PCB001")
+		(rev "0.1")
+		(company "SQUAD4 Inc.")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_02x05_Counter_Clockwise"
 			(pin_names
