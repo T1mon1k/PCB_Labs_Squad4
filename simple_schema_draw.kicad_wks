@@ -1,0 +1,1370 @@
+(kicad_wks
+	(version 20231118)
+	(generator "pl_editor")
+	(generator_version "9.0")
+	(setup
+		(textsize 1.5 1.5)
+		(linewidth 0.15)
+		(textlinewidth 0.15)
+		(left_margin 10)
+		(right_margin 10)
+		(top_margin 10)
+		(bottom_margin 10)
+	)
+	(rect
+		(name "")
+		(start 110 34)
+		(end 2 2)
+		(comment "rect around the title block")
+	)
+	(rect
+		(name "")
+		(start 0 0 ltcorner)
+		(end 0 0)
+		(repeat 2)
+		(incrx 2)
+		(incry 2)
+	)
+	(line
+		(name "")
+		(start 50 2 ltcorner)
+		(end 50 0 ltcorner)
+		(repeat 30)
+		(incrx 50)
+	)
+	(tbtext "1"
+		(name "")
+		(pos 25 1 ltcorner)
+		(font
+			(size 1.3 1.3)
+		)
+		(repeat 100)
+		(incrx 50)
+	)
+	(line
+		(name "")
+		(start 50 2 lbcorner)
+		(end 50 0 lbcorner)
+		(repeat 30)
+		(incrx 50)
+	)
+	(tbtext "1"
+		(name "")
+		(pos 25 1 lbcorner)
+		(font
+			(size 1.3 1.3)
+		)
+		(repeat 100)
+		(incrx 50)
+	)
+	(line
+		(name "")
+		(start 0 50 ltcorner)
+		(end 2 50 ltcorner)
+		(repeat 30)
+		(incry 50)
+	)
+	(tbtext "A"
+		(name "")
+		(pos 1 25 ltcorner)
+		(font
+			(size 1.3 1.3)
+		)
+		(justify center)
+		(repeat 100)
+		(incry 50)
+	)
+	(line
+		(name "")
+		(start 0 50 rtcorner)
+		(end 2 50 rtcorner)
+		(repeat 30)
+		(incry 50)
+	)
+	(tbtext "A"
+		(name "")
+		(pos 1 25 rtcorner)
+		(font
+			(size 1.3 1.3)
+		)
+		(justify center)
+		(repeat 100)
+		(incry 50)
+	)
+	(tbtext "Date: "
+		(name "")
+		(pos 87 6.9)
+	)
+	(line
+		(name "")
+		(start 110 5.5)
+		(end 2 5.5)
+	)
+	(tbtext "KiCad E.D.A. 9.0.7"
+		(name "")
+		(pos 109 4.1)
+		(comment "Kicad version")
+	)
+	(line
+		(name "")
+		(start 110 8.5)
+		(end 2 8.5)
+	)
+	(tbtext "Rev: -.1"
+		(name "")
+		(pos 24 6.9)
+		(font bold)
+	)
+	(tbtext "Size: A4"
+		(name "")
+		(pos 109 6.9)
+		(comment "Paper format name")
+	)
+	(tbtext "Id: 1/1"
+		(name "")
+		(pos 24 4.1)
+		(comment "Sheet id")
+	)
+	(line
+		(name "")
+		(start 110 12.5)
+		(end 2 12.5)
+	)
+	(tbtext "Title: DRAW001"
+		(name "")
+		(pos 109 10.7)
+		(font
+			(size 2 2) bold italic)
+	)
+	(tbtext "File: simple_schema_draw.kicad_wks"
+		(name "")
+		(pos 109 14.3)
+	)
+	(line
+		(name "")
+		(start 110 18.5)
+		(end 2 18.5)
+	)
+	(tbtext "Sheet: /"
+		(name "")
+		(pos 109 17)
+	)
+	(tbtext "SQUAD4 Inc."
+		(name "")
+		(pos 109 20)
+		(font bold)
+		(comment "Company name")
+	)
+	(line
+		(name "")
+		(start 90 8.5)
+		(end 90 5.5)
+	)
+	(line
+		(name "")
+		(start 26 8.5)
+		(end 26 2)
+	)
+	(line
+		(name "")
+		(start 248.739 70.7522)
+		(end 238.739 70.7522)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 248.739 68.2522)
+		(end 238.739 68.2522)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 243.739 68.2522)
+		(end 243.739 63.2522)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 243.739 75.7522)
+		(end 243.739 70.7522)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 236.239 70.7522)
+		(end 226.239 70.7522)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 236.239 68.2522)
+		(end 226.239 68.2522)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 231.239 75.7522)
+		(end 231.239 70.7522)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 231.239 68.2522)
+		(end 231.239 63.2522)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 223.739 70.7522)
+		(end 213.739 70.7522)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 223.739 68.2522)
+		(end 213.739 68.2522)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 218.739 75.7522)
+		(end 218.739 70.7522)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 218.739 68.2522)
+		(end 218.739 63.2522)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 193.739 68.2522)
+		(end 193.739 63.2522)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 198.739 70.7522)
+		(end 188.739 70.7522)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 206.239 75.7522)
+		(end 206.239 70.7522)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 211.239 70.7522)
+		(end 201.239 70.7522)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 181.239 68.2522)
+		(end 181.239 63.2522)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 193.739 75.7522)
+		(end 193.739 70.7522)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 198.739 68.2522)
+		(end 188.739 68.2522)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 206.239 68.2522)
+		(end 206.239 63.2522)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 211.239 68.2522)
+		(end 201.239 68.2522)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 186.239 68.2522)
+		(end 176.239 68.2522)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 186.239 70.7522)
+		(end 176.239 70.7522)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 181.239 75.7522)
+		(end 181.239 70.7522)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 243.739 63.2522)
+		(end 171.239 63.2522)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 243.739 75.7522)
+		(end 168.739 75.7522)
+		(linewidth 1)
+	)
+	(tbtext "C9"
+		(name "")
+		(pos 247.489 79.5022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "C8"
+		(name "")
+		(pos 234.989 79.5022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "C7"
+		(name "")
+		(pos 222.489 79.5022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "C3"
+		(name "")
+		(pos 209.989 79.5022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "C2"
+		(name "")
+		(pos 197.489 79.5022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "C1"
+		(name "")
+		(pos 184.989 79.5022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "0.1 μF"
+		(name "")
+		(pos 248.739 58.2522)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "0.1 μF"
+		(name "")
+		(pos 236.239 58.2522)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "0.1 μF"
+		(name "")
+		(pos 223.739 58.2522)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "0.1 μF"
+		(name "")
+		(pos 211.239 58.2522)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "0.1 μF"
+		(name "")
+		(pos 186.239 58.2522)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "0.1 μF"
+		(name "")
+		(pos 198.739 58.2522)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(line
+		(name "")
+		(start 298.739 154.5022)
+		(end 298.739 129.5022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 303.739 154.5022)
+		(end 293.739 154.5022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 298.739 164.5022)
+		(end 298.739 157.0022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 303.739 157.0022)
+		(end 293.739 157.0022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 276.239 149.5022)
+		(end 276.239 139.5022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 286.239 144.5022)
+		(end 298.739 144.5022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 243.739 144.5022)
+		(end 276.239 144.5022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 286.239 149.5022)
+		(end 286.239 139.5022)
+		(linewidth 1)
+	)
+	(rect
+		(name "")
+		(start 283.739 149.5022)
+		(end 278.739 139.5022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 268.739 157.0022)
+		(end 258.739 157.0022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 263.739 164.5022)
+		(end 263.739 157.0022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 268.739 154.5022)
+		(end 258.739 154.5022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 263.739 154.5022)
+		(end 263.739 144.5022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 298.739 164.5022)
+		(end 243.739 164.5022)
+		(linewidth 1)
+	)
+	(tbtext "C5"
+		(name "")
+		(pos 292.489 159.5022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "33 pF"
+		(name "")
+		(pos 292.489 152.0022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "10 pF"
+		(name "")
+		(pos 257.489 152.0022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "C4"
+		(name "")
+		(pos 257.489 159.5022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext " XTAL"
+		(name "")
+		(pos 258.739 167.0022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "EXTAL"
+		(name "")
+		(pos 258.739 147.0022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(rect
+		(name "")
+		(start 243.739 219.5022)
+		(end 188.739 140.7522)
+		(linewidth 1)
+	)
+	(tbtext "STM32"
+		(name "")
+		(pos 221.239 217.0022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(rect
+		(name "")
+		(start 132.489 168.2522)
+		(end 119.989 140.7522)
+		(linewidth 1)
+	)
+	(rect
+		(name "")
+		(start 129.989 165.7522)
+		(end 127.489 163.2522)
+		(linewidth 1)
+	)
+	(rect
+		(name "")
+		(start 124.989 165.7522)
+		(end 122.489 163.2522)
+		(linewidth 1)
+	)
+	(rect
+		(name "")
+		(start 124.989 160.7522)
+		(end 122.489 158.2522)
+		(linewidth 1)
+	)
+	(rect
+		(name "")
+		(start 124.989 155.7522)
+		(end 122.489 153.2522)
+		(linewidth 1)
+	)
+	(rect
+		(name "")
+		(start 124.989 150.7522)
+		(end 122.489 148.2522)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 129.989 164.5022)
+		(end 188.739 164.5022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 112.489 164.5022)
+		(end 122.489 164.5022)
+		(linewidth 1)
+	)
+	(tbtext "+3.3V"
+		(name "")
+		(pos 92.489 147.0022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "GND"
+		(name "")
+		(pos 92.489 157.0022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(line
+		(name "")
+		(start 122.489 159.5022)
+		(end 94.989 159.5022)
+		(linewidth 1)
+	)
+	(tbtext "NRST"
+		(name "")
+		(pos 198.739 164.5022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "SWDIO"
+		(name "")
+		(pos 182.489 175.7522)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "SWCLK"
+		(name "")
+		(pos 182.489 180.7522)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "1"
+		(name "")
+		(pos 136.239 167.0022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(line
+		(name "")
+		(start 112.489 164.5022)
+		(end 112.489 173.2522)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 112.489 173.2522)
+		(end 188.739 173.2522)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 107.489 178.2522)
+		(end 188.739 178.2522)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 107.489 154.5022)
+		(end 122.489 154.5022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 107.489 160.7522)
+		(end 107.489 178.2522)
+		(linewidth 1)
+	)
+	(tbtext "10"
+		(name "")
+		(pos 118.739 167.0022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "8"
+		(name "")
+		(pos 118.739 157.0022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(line
+		(name "")
+		(start 94.989 162.0022)
+		(end 94.989 157.0022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 94.989 162.0022)
+		(end 92.489 159.5022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 94.989 157.0022)
+		(end 92.489 159.5022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 122.489 149.5022)
+		(end 92.489 149.5022)
+		(linewidth 1)
+	)
+	(tbtext "9"
+		(name "")
+		(pos 118.739 162.0022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "7"
+		(name "")
+		(pos 118.739 152.0022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(line
+		(name "")
+		(start 92.489 149.5022)
+		(end 94.989 152.0022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 92.489 149.5022)
+		(end 94.989 147.0022)
+		(linewidth 1)
+	)
+	(rect
+		(name "")
+		(start 168.739 197.0022)
+		(end 173.739 207.0022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 171.239 197.0022)
+		(end 171.239 189.5022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 173.739 189.5022)
+		(end 171.239 187.0022)
+		(linewidth 1)
+	)
+	(tbtext "GND"
+		(name "")
+		(pos 168.739 185.7522)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(line
+		(name "")
+		(start 173.739 189.5022)
+		(end 168.739 189.5022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 168.739 189.5022)
+		(end 171.239 187.0022)
+		(linewidth 1)
+	)
+	(rect
+		(name "")
+		(start 158.739 215.7522)
+		(end 156.239 213.2522)
+		(linewidth 1)
+	)
+	(rect
+		(name "")
+		(start 148.739 215.7522)
+		(end 146.239 213.2522)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 158.739 218.2522)
+		(end 146.239 218.2522)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 152.489 222.0022)
+		(end 152.489 218.2522)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 171.239 214.5022)
+		(end 171.239 207.0022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 188.739 214.5022)
+		(end 158.739 214.5022)
+		(linewidth 1)
+	)
+	(tbtext "+3.3V"
+		(name "")
+		(pos 133.739 212.0022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(line
+		(name "")
+		(start 133.739 214.5022)
+		(end 136.239 217.0022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 133.739 214.5022)
+		(end 136.239 212.0022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 146.239 214.5022)
+		(end 133.739 214.5022)
+		(linewidth 1)
+	)
+	(tbtext "BOOT"
+		(name "")
+		(pos 151.239 222.0022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "94"
+		(name "")
+		(pos 187.489 217.0022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "BOOTO"
+		(name "")
+		(pos 201.239 214.5022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "72"
+		(name "")
+		(pos 187.489 175.7522)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "76"
+		(name "")
+		(pos 187.489 180.7522)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "13"
+		(name "")
+		(pos 248.739 147.0022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "14"
+		(name "")
+		(pos 187.489 167.0022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "PA13"
+		(name "")
+		(pos 198.739 173.2522)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "PA14"
+		(name "")
+		(pos 198.739 178.2522)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "PH0"
+		(name "")
+		(pos 242.489 164.5022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "PH1"
+		(name "")
+		(pos 242.489 144.5022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "R1"
+		(name "")
+		(pos 166.239 205.7522)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "10 kOhm"
+		(name "")
+		(pos 166.239 198.2522)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "C4"
+		(name "")
+		(pos 164.989 158.2522)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(line
+		(name "")
+		(start 176.239 155.7522)
+		(end 166.239 155.7522)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 171.239 164.5022)
+		(end 171.239 155.7522)
+		(linewidth 1)
+	)
+	(tbtext "10 pF"
+		(name "")
+		(pos 166.239 130.7522)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(line
+		(name "")
+		(start 176.239 153.2522)
+		(end 166.239 153.2522)
+		(linewidth 1)
+	)
+	(rect
+		(name "")
+		(start 151.239 160.7522)
+		(end 148.739 158.2522)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 146.239 154.5022)
+		(end 142.489 154.5022)
+		(linewidth 1)
+	)
+	(rect
+		(name "")
+		(start 151.239 150.7522)
+		(end 148.739 148.2522)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 146.239 160.7522)
+		(end 146.239 148.2522)
+		(linewidth 1)
+	)
+	(tbtext "NRST"
+		(name "")
+		(pos 143.739 158.2522)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(line
+		(name "")
+		(start 149.989 164.5022)
+		(end 149.989 160.7522)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 171.239 144.5022)
+		(end 149.989 144.5022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 149.989 148.2522)
+		(end 149.989 144.5022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 171.239 153.2522)
+		(end 171.239 122.0022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 173.739 122.0022)
+		(end 168.739 122.0022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 173.739 122.0022)
+		(end 171.239 119.5022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 168.739 122.0022)
+		(end 171.239 119.5022)
+		(linewidth 1)
+	)
+	(tbtext "GND"
+		(name "")
+		(pos 168.739 119.5022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(line
+		(name "")
+		(start 173.739 122.0022)
+		(end 171.239 119.5022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 173.739 122.0022)
+		(end 168.739 122.0022)
+		(linewidth 1)
+	)
+	(tbtext "GND"
+		(name "")
+		(pos 168.739 119.5022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(line
+		(name "")
+		(start 168.739 122.0022)
+		(end 171.239 119.5022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 227.489 140.7522)
+		(end 227.489 129.5022)
+		(linewidth 1)
+	)
+	(tbtext "VSS"
+		(name "")
+		(pos 229.989 143.2522)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "10"
+		(name "")
+		(pos 226.239 138.2522)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(line
+		(name "")
+		(start 171.239 129.5022)
+		(end 298.739 129.5022)
+		(linewidth 1)
+	)
+	(tbtext "+3.3V"
+		(name "")
+		(pos 168.739 73.2522)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "GND"
+		(name "")
+		(pos 168.739 60.7522)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(line
+		(name "")
+		(start 171.239 65.7522)
+		(end 171.239 60.7522)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 171.239 65.7522)
+		(end 168.739 63.2522)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 171.239 60.7522)
+		(end 168.739 63.2522)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 168.739 75.7522)
+		(end 171.239 78.2522)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 168.739 75.7522)
+		(end 171.239 73.2522)
+		(linewidth 1)
+	)
+	(tbtext "VDD"
+		(name "")
+		(pos 242.489 204.5022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(line
+		(name "")
+		(start 253.739 204.5022)
+		(end 243.739 204.5022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 253.739 199.5022)
+		(end 243.739 199.5022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 253.739 204.5022)
+		(end 253.739 179.5022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 107.489 154.5022)
+		(end 107.489 158.2522)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 107.489 158.2522)
+		(end 106.239 159.5022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 107.489 160.7522)
+		(end 106.239 159.5022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 273.739 179.5022)
+		(end 271.239 182.0022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 273.739 179.5022)
+		(end 271.239 177.0022)
+		(linewidth 1)
+	)
+	(tbtext "+3.3V"
+		(name "")
+		(pos 282.489 175.7522)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "12"
+		(name "")
+		(pos 248.739 167.0022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "VDD"
+		(name "")
+		(pos 242.489 199.5022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "VDD"
+		(name "")
+		(pos 242.489 189.5022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "VDD"
+		(name "")
+		(pos 242.489 194.5022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "VDD"
+		(name "")
+		(pos 242.489 179.5022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "VDD"
+		(name "")
+		(pos 242.489 184.5022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(line
+		(name "")
+		(start 253.739 194.5022)
+		(end 243.739 194.5022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 253.739 189.5022)
+		(end 243.739 189.5022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 253.739 184.5022)
+		(end 243.739 184.5022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 273.739 179.5022)
+		(end 243.739 179.5022)
+		(linewidth 1)
+	)
+	(tbtext "11"
+		(name "")
+		(pos 248.739 207.002)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "19"
+		(name "")
+		(pos 248.739 202.002)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "28"
+		(name "")
+		(pos 248.739 197.002)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "50"
+		(name "")
+		(pos 248.739 192.002)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "75"
+		(name "")
+		(pos 248.739 187.002)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext " 100"
+		(name "")
+		(pos 252.489 182.0022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+)
