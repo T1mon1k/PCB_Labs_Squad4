@@ -967,9 +967,9 @@
 			(size 2 2)
 		)
 	)
-	(tbtext "C4"
+	(tbtext "C6"
 		(name "")
-		(pos 164.989 158.2522)
+		(pos 164.989 158.252)
 		(font
 			(linewidth 1)
 			(size 2 2)
@@ -1362,6 +1362,14 @@
 	(tbtext " 100"
 		(name "")
 		(pos 252.489 182.0022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "0.1 μF"
+		(name "")
+		(pos 164.989 150.7522)
 		(font
 			(linewidth 1)
 			(size 2 2)
