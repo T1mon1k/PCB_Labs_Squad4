@@ -4790,6 +4790,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 154.94) (xy 213.36 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0240b5b6-63e8-4da5-8660-9f59d074309d")
+	)
+	(wire
+		(pts
 			(xy 215.9 196.85) (xy 222.25 196.85)
 		)
 		(stroke
@@ -4910,6 +4920,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 149.86) (xy 270.51 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "220edf9b-8c85-462e-b0d6-04a3d90d7e58")
+	)
+	(wire
+		(pts
 			(xy 138.43 114.3) (xy 151.13 114.3)
 		)
 		(stroke
@@ -4977,16 +4997,6 @@
 			(type default)
 		)
 		(uuid "2b052965-5b3f-4f89-be0d-9697d0c703cb")
-	)
-	(wire
-		(pts
-			(xy 265.43 149.86) (xy 270.51 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2caf02ed-82e3-4133-a4ef-1fd87d825486")
 	)
 	(wire
 		(pts
@@ -5140,6 +5150,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 157.48) (xy 213.36 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fb8bbe7-854d-4205-8e99-929e1167067e")
+	)
+	(wire
+		(pts
 			(xy 237.49 105.41) (xy 237.49 107.95)
 		)
 		(stroke
@@ -5207,16 +5227,6 @@
 			(type default)
 		)
 		(uuid "6d3927b3-d81e-45f0-a1b8-4444b0ff1fe6")
-	)
-	(wire
-		(pts
-			(xy 237.49 157.48) (xy 241.3 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6eccfd56-1acd-4647-a50f-745a4297c3da")
 	)
 	(wire
 		(pts
@@ -5300,16 +5310,6 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 154.94) (xy 270.51 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7eb0ce4d-12dc-456b-bc17-669b9c08e24b")
-	)
-	(wire
-		(pts
 			(xy 74.93 59.69) (xy 74.93 64.77)
 		)
 		(stroke
@@ -5377,16 +5377,6 @@
 			(type default)
 		)
 		(uuid "90cfc0b2-6870-4cbe-97fa-08c4f972831f")
-	)
-	(wire
-		(pts
-			(xy 237.49 154.94) (xy 241.3 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92e45d1c-6b7a-46fe-ad71-68d6e995563f")
 	)
 	(wire
 		(pts
@@ -5487,6 +5477,16 @@
 			(type default)
 		)
 		(uuid "b2236310-cbd0-4abd-a7a8-42068cb4eae8")
+	)
+	(wire
+		(pts
+			(xy 265.43 154.94) (xy 270.51 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b332c490-9542-439f-a60f-e9616ad2d87f")
 	)
 	(wire
 		(pts
@@ -5640,6 +5640,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 157.48) (xy 241.3 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf7a6dda-2be3-435b-8155-196a69279eaa")
+	)
+	(wire
+		(pts
 			(xy 138.43 193.04) (xy 151.13 193.04)
 		)
 		(stroke
@@ -5690,6 +5700,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 154.94) (xy 241.3 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1afca89-060c-40ca-9805-1ec3de2a29ce")
+	)
+	(wire
+		(pts
 			(xy 379.73 204.47) (xy 379.73 205.74)
 		)
 		(stroke
@@ -5697,16 +5717,6 @@
 			(type default)
 		)
 		(uuid "e7d6528a-52b6-4f29-902b-e5467d4489fd")
-	)
-	(wire
-		(pts
-			(xy 207.01 157.48) (xy 210.82 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8b33a68-99a7-4964-bd0c-de3e08ff2914")
 	)
 	(wire
 		(pts
@@ -5757,16 +5767,6 @@
 			(type default)
 		)
 		(uuid "f0ef14b7-5950-43b3-b9fb-1105816463d6")
-	)
-	(wire
-		(pts
-			(xy 207.01 154.94) (xy 210.82 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1d67f1a-c68f-4e00-9e90-6eded637da95")
 	)
 	(wire
 		(pts
@@ -5979,7 +5979,7 @@
 		(uuid "5e39b718-5b6a-4011-b5ea-65fcee54037a")
 	)
 	(label "I2C_SCL"
-		(at 241.3 154.94 0)
+		(at 241.3 157.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5989,7 +5989,7 @@
 		(uuid "68422b18-b4fe-4bbc-9115-1ff2d9199763")
 	)
 	(label "SPI_MOSI"
-		(at 270.51 154.94 0)
+		(at 270.51 149.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6079,7 +6079,7 @@
 		(uuid "a8b05c2d-d354-4790-bf2e-e174dc65b096")
 	)
 	(label "I2C_SDA"
-		(at 241.3 157.48 0)
+		(at 241.3 154.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6119,7 +6119,7 @@
 		(uuid "bb744079-7864-495d-a4d2-2d49459c30ef")
 	)
 	(label "SPI_SCK"
-		(at 270.51 149.86 0)
+		(at 270.51 154.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6129,7 +6129,7 @@
 		(uuid "bd3d7af9-ff47-4fed-ba9a-8dfa9797eb8e")
 	)
 	(label "UART_RX"
-		(at 210.82 157.48 0)
+		(at 213.36 154.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6179,7 +6179,7 @@
 		(uuid "cc326c7c-903f-491b-8064-7253ff8543bf")
 	)
 	(label "UART_TX"
-		(at 210.82 154.94 0)
+		(at 213.36 157.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6439,7 +6439,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 201.93 154.94 0)
+		(at 204.47 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6448,7 +6448,7 @@
 		(fields_autoplaced yes)
 		(uuid "1394335c-0fe2-47b1-8fa1-3295ab60598b")
 		(property "Reference" "J2"
-			(at 202.565 149.86 0)
+			(at 205.105 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6456,15 +6456,15 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 202.565 152.4 0)
+			(at 205.105 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Horizontal"
-			(at 201.93 154.94 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal"
+			(at 204.47 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6473,7 +6473,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 201.93 154.94 0)
+			(at 204.47 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6482,7 +6482,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 201.93 154.94 0)
+			(at 204.47 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7160,7 +7160,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Horizontal"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal"
 			(at 232.41 154.94 0)
 			(effects
 				(font
@@ -10032,7 +10032,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 143.51 147.32 0)
+		(at 143.51 147.32 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10046,7 +10046,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "R 2.2 kOhm"
@@ -10055,11 +10055,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 141.732 147.32 90)
+			(at 145.288 147.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10194,7 +10194,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_ACP_CA9-V10_Vertical"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical"
 			(at 203.2 102.87 0)
 			(effects
 				(font
@@ -10611,7 +10611,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_ACP_CA9-V10_Vertical"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical"
 			(at 237.49 102.87 0)
 			(effects
 				(font
@@ -10681,7 +10681,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x04_P1.00mm_Horizontal"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal"
 			(at 260.35 152.4 0)
 			(effects
 				(font
