@@ -4831,16 +4831,6 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 152.4) (xy 213.36 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0240b5b6-63e8-4da5-8660-9f59d074309d")
-	)
-	(wire
-		(pts
 			(xy 215.9 196.85) (xy 222.25 196.85)
 		)
 		(stroke
@@ -4858,6 +4848,16 @@
 			(type default)
 		)
 		(uuid "03d12fe5-3102-4553-9807-97f64e933c23")
+	)
+	(wire
+		(pts
+			(xy 209.55 154.94) (xy 213.36 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "066b7677-4264-41d6-847b-9a46e051682c")
 	)
 	(wire
 		(pts
@@ -5181,6 +5181,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 157.48) (xy 213.36 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57f78fdd-1859-4760-b081-1bcb77a6f381")
+	)
+	(wire
+		(pts
 			(xy 143.51 143.51) (xy 143.51 142.24)
 		)
 		(stroke
@@ -5198,16 +5208,6 @@
 			(type default)
 		)
 		(uuid "5f3a76ee-6c71-4987-8d61-8117f1ef60ca")
-	)
-	(wire
-		(pts
-			(xy 209.55 154.94) (xy 213.36 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5fb8bbe7-854d-4205-8e99-929e1167067e")
 	)
 	(wire
 		(pts
@@ -5361,16 +5361,6 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 157.48) (xy 209.55 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "802839ae-9b20-487f-86df-51775940c81d")
-	)
-	(wire
-		(pts
 			(xy 74.93 59.69) (xy 74.93 64.77)
 		)
 		(stroke
@@ -5438,6 +5428,16 @@
 			(type default)
 		)
 		(uuid "90cfc0b2-6870-4cbe-97fa-08c4f972831f")
+	)
+	(wire
+		(pts
+			(xy 209.55 152.4) (xy 214.63 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "945ed76c-df94-4bdb-b7ac-f571794150c5")
 	)
 	(wire
 		(pts
@@ -5881,16 +5881,6 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 158.75) (xy 213.36 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f95ff1d9-3ff2-4e20-a5f5-70412b3d3d32")
-	)
-	(wire
-		(pts
 			(xy 359.41 102.87) (xy 363.22 102.87)
 		)
 		(stroke
@@ -6230,7 +6220,7 @@
 		(uuid "bd3d7af9-ff47-4fed-ba9a-8dfa9797eb8e")
 	)
 	(label "UART_RX"
-		(at 213.36 152.4 0)
+		(at 213.36 154.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6280,7 +6270,7 @@
 		(uuid "cc326c7c-903f-491b-8064-7253ff8543bf")
 	)
 	(label "UART_TX"
-		(at 213.36 154.94 0)
+		(at 213.36 157.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9377,7 +9367,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 213.36 158.75 0)
+		(at 214.63 152.4 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9386,7 +9376,7 @@
 		(fields_autoplaced yes)
 		(uuid "be6a36d0-156d-4319-a9d7-06d55f66ca02")
 		(property "Reference" "#PWR012"
-			(at 213.36 165.1 0)
+			(at 214.63 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9395,7 +9385,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 213.36 163.83 0)
+			(at 214.63 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9403,7 +9393,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 213.36 158.75 0)
+			(at 214.63 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9412,7 +9402,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.36 158.75 0)
+			(at 214.63 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9421,7 +9411,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 213.36 158.75 0)
+			(at 214.63 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9733,7 +9723,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal"
 			(at 204.47 154.94 0)
 			(effects
 				(font
