@@ -2793,26 +2793,8 @@
 	)
 	(rect
 		(name "")
-		(start 160.989 57.5022)
+		(start 160.989 63.5022)
 		(end 153.489 44.5022)
-		(linewidth 1)
-	)
-	(rect
-		(name "")
-		(start 111.989 49.5022)
-		(end 109.489 47.0022)
-		(linewidth 1)
-	)
-	(rect
-		(name "")
-		(start 111.989 55.0022)
-		(end 109.489 52.5022)
-		(linewidth 1)
-	)
-	(rect
-		(name "")
-		(start 114.489 57.5022)
-		(end 106.989 44.5022)
 		(linewidth 1)
 	)
 	(rect
@@ -2847,8 +2829,8 @@
 	)
 	(line
 		(name "")
-		(start 155.489 53.7522)
-		(end 132.239 53.7522)
+		(start 155.989 53.7522)
+		(end 132.739 53.7522)
 		(linewidth 1)
 	)
 	(line
@@ -2895,7 +2877,7 @@
 	)
 	(tbtext "1"
 		(name "")
-		(pos 151.989 56.5022)
+		(pos 151.989 61.7522)
 		(font
 			(linewidth 1)
 			(size 2 2)
@@ -2903,23 +2885,7 @@
 	)
 	(tbtext "2"
 		(name "")
-		(pos 151.989 51.0022)
-		(font
-			(linewidth 1)
-			(size 2 2)
-		)
-	)
-	(tbtext "1"
-		(name "")
-		(pos 105.489 56.5022)
-		(font
-			(linewidth 1)
-			(size 2 2)
-		)
-	)
-	(tbtext "2"
-		(name "")
-		(pos 105.489 51.0022)
+		(pos 151.989 56.2522)
 		(font
 			(linewidth 1)
 			(size 2 2)
@@ -3379,7 +3345,7 @@
 	)
 	(tbtext "J2"
 		(name "")
-		(pos 165.989 51.2522)
+		(pos 165.739 53.7522)
 		(font
 			(linewidth 1)
 			(size 2 2)
@@ -3387,7 +3353,7 @@
 	)
 	(tbtext "J3"
 		(name "")
-		(pos 119.239 50.7522)
+		(pos 119.239 51.0022)
 		(font
 			(linewidth 1)
 			(size 2 2)
@@ -3403,7 +3369,7 @@
 	)
 	(tbtext "UART"
 		(name "")
-		(pos 161.239 59.7522)
+		(pos 160.989 66.0022)
 		(font
 			(linewidth 1)
 			(size 2 2)
@@ -3411,7 +3377,7 @@
 	)
 	(tbtext "I2C"
 		(name "")
-		(pos 113.239 59.7522)
+		(pos 113.239 65.5022)
 		(font
 			(linewidth 1)
 			(size 2 2)
@@ -3428,6 +3394,172 @@
 	(tbtext "PROG_PORT"
 		(name "")
 		(pos 162.489 167.0022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(rect
+		(name "")
+		(start 158.489 60.5022)
+		(end 155.989 58.0022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 155.989 59.2522)
+		(end 130.989 59.2522)
+		(linewidth 1)
+	)
+	(tbtext "3"
+		(name "")
+		(pos 151.989 50.752)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(line
+		(name "")
+		(start 130.989 62.0022)
+		(end 130.989 57.0022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 130.989 62.0022)
+		(end 128.489 59.5022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 130.989 57.0022)
+		(end 128.489 59.5022)
+		(linewidth 1)
+	)
+	(tbtext "GND"
+		(name "")
+		(pos 128.489 57.0022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(rect
+		(name "")
+		(start 111.989 44.0022)
+		(end 109.489 41.5022)
+		(linewidth 1)
+	)
+	(rect
+		(name "")
+		(start 114.489 63.0022)
+		(end 106.989 38.5022)
+		(linewidth 1)
+	)
+	(rect
+		(name "")
+		(start 111.989 49.5022)
+		(end 109.489 47.0022)
+		(linewidth 1)
+	)
+	(rect
+		(name "")
+		(start 111.989 60.5022)
+		(end 109.489 58.0022)
+		(linewidth 1)
+	)
+	(rect
+		(name "")
+		(start 111.989 55.0022)
+		(end 109.489 52.5022)
+		(linewidth 1)
+	)
+	(tbtext "2"
+		(name "")
+		(pos 105.239 56.5022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "1"
+		(name "")
+		(pos 105.239 62.0022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "3"
+		(name "")
+		(pos 105.239 51.0022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "4"
+		(name "")
+		(pos 105.239 45.5022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(line
+		(name "")
+		(start 109.489 42.7522)
+		(end 84.489 42.7522)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 84.489 45.5022)
+		(end 84.489 40.5022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 84.489 45.5022)
+		(end 81.989 43.0022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 84.489 40.5022)
+		(end 81.989 43.0022)
+		(linewidth 1)
+	)
+	(tbtext "GND"
+		(name "")
+		(pos 81.239 43.0022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(line
+		(name "")
+		(start 109.489 59.2522)
+		(end 81.739 59.2522)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 84.239 61.7522)
+		(end 81.739 59.2522)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 84.239 56.7522)
+		(end 81.739 59.2522)
+		(linewidth 1)
+	)
+	(tbtext "+3.3V"
+		(name "")
+		(pos 81.239 59.2522)
 		(font
 			(linewidth 1)
 			(size 2 2)
