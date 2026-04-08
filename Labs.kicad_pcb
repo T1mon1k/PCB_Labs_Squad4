@@ -229,8 +229,8 @@
 		(at 146.48 78.885 90)
 		(descr "Through hole angled pin header, 1x04, 2.54mm pitch, 6mm pin length, single row")
 		(tags "Through hole angled pin header THT 1x04 2.54mm single row")
-		(property "Reference" "J4"
-			(at -2.115 -0.73 0)
+		(property "Reference" "SPI"
+			(at -1.615 1.52 0)
 			(layer "F.SilkS")
 			(uuid "e5f0d233-badf-456a-abcd-53b129f2d496")
 			(effects
@@ -2298,8 +2298,8 @@
 		(at 126.63 78.9 90)
 		(descr "Through hole angled pin header, 1x04, 2.54mm pitch, 6mm pin length, single row")
 		(tags "Through hole angled pin header THT 1x04 2.54mm single row")
-		(property "Reference" "J3"
-			(at -2.1 -0.88 180)
+		(property "Reference" "I2C"
+			(at -1.6 1.37 180)
 			(layer "F.SilkS")
 			(uuid "d8cc6c13-3fa5-41db-8fe2-56bbff841d19")
 			(effects
@@ -4822,8 +4822,8 @@
 		(at 137.82 78.9 90)
 		(descr "Through hole angled pin header, 1x03, 2.54mm pitch, 6mm pin length, single row")
 		(tags "Through hole angled pin header THT 1x03 2.54mm single row")
-		(property "Reference" "J2"
-			(at -2.1 -0.82 180)
+		(property "Reference" "UART"
+			(at -1.6 1.93 180)
 			(layer "F.SilkS")
 			(uuid "18eb9a1b-6fcd-43d5-8e6b-a0e50e862a5a")
 			(effects
