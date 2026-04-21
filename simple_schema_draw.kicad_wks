@@ -3367,25 +3367,25 @@
 			(size 2 2)
 		)
 	)
-	(tbtext "UART"
+	(tbtext "UART1"
 		(name "")
-		(pos 160.989 66.0022)
+		(pos 160.989 66.002)
 		(font
 			(linewidth 1)
 			(size 2 2)
 		)
 	)
-	(tbtext "I2C"
+	(tbtext "I2C1"
 		(name "")
-		(pos 113.239 65.5022)
+		(pos 113.239 65.502)
 		(font
 			(linewidth 1)
 			(size 2 2)
 		)
 	)
-	(tbtext "SPI"
+	(tbtext "SPI1"
 		(name "")
-		(pos 59.989 65.0022)
+		(pos 59.989 65.002)
 		(font
 			(linewidth 1)
 			(size 2 2)

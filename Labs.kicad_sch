@@ -9707,7 +9707,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2be3c7d-d7fb-4b6b-9fe2-6e85ba32437e")
-		(property "Reference" "J2"
+		(property "Reference" "UART1"
 			(at 205.105 147.32 0)
 			(effects
 				(font
@@ -9762,7 +9762,7 @@
 		(instances
 			(project ""
 				(path "/5b477a71-f590-4cf6-b140-b4be217c683d"
-					(reference "J2")
+					(reference "UART1")
 					(unit 1)
 				)
 			)
@@ -10471,7 +10471,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e2061df3-67bb-4b14-ba24-39419a2670ca")
-		(property "Reference" "J3"
+		(property "Reference" "I2C1"
 			(at 236.728 144.78 0)
 			(effects
 				(font
@@ -10529,7 +10529,7 @@
 		(instances
 			(project "Labs"
 				(path "/5b477a71-f590-4cf6-b140-b4be217c683d"
-					(reference "J3")
+					(reference "I2C1")
 					(unit 1)
 				)
 			)
@@ -10961,7 +10961,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fe6538d2-4ef3-4971-b42a-6074fd1dd564")
-		(property "Reference" "J4"
+		(property "Reference" "SPI1"
 			(at 260.985 144.78 0)
 			(effects
 				(font
@@ -11019,7 +11019,7 @@
 		(instances
 			(project ""
 				(path "/5b477a71-f590-4cf6-b140-b4be217c683d"
-					(reference "J4")
+					(reference "SPI1")
 					(unit 1)
 				)
 			)
