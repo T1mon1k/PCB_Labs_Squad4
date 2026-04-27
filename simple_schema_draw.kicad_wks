@@ -2887,17 +2887,17 @@
 		(end 267.689 208.2022)
 		(linewidth 1)
 	)
-	(tbtext "PD15"
+	(tbtext "PD6"
 		(name "")
-		(pos 278.239 205.0022)
+		(pos 277.239 205.0022)
 		(font
 			(linewidth 1)
 			(size 2 2)
 		)
 	)
-	(tbtext "PD14"
+	(tbtext "PD5"
 		(name "")
-		(pos 278.139 209.9022)
+		(pos 277.139 209.9022)
 		(font
 			(linewidth 1)
 			(size 2 2)
@@ -3871,6 +3871,1352 @@
 		(name "")
 		(start 151.489 138.5022)
 		(end 146.489 138.5022)
+		(linewidth 1)
+	)
+	(rect
+		(name "")
+		(start 118.739 235.0022)
+		(end 116.239 232.5022)
+		(linewidth 1)
+	)
+	(rect
+		(name "")
+		(start 121.239 254.0022)
+		(end 113.739 229.5022)
+		(linewidth 1)
+	)
+	(rect
+		(name "")
+		(start 118.739 246.0022)
+		(end 116.239 243.5022)
+		(linewidth 1)
+	)
+	(rect
+		(name "")
+		(start 118.739 240.5022)
+		(end 116.239 238.0022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 90.989 252.7522)
+		(end 88.489 250.2522)
+		(linewidth 1)
+	)
+	(rect
+		(name "")
+		(start 118.739 251.5022)
+		(end 116.239 249.0022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 116.239 250.2522)
+		(end 88.489 250.2522)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 90.989 247.7522)
+		(end 88.489 250.2522)
+		(linewidth 1)
+	)
+	(tbtext "PWR1"
+		(name "")
+		(pos 121.489 256.5022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "1"
+		(name "")
+		(pos 111.989 253.0022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "3"
+		(name "")
+		(pos 111.989 242.0022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "4"
+		(name "")
+		(pos 111.989 236.5022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "+3.3V"
+		(name "")
+		(pos 87.989 250.2522)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "2"
+		(name "")
+		(pos 111.989 247.5022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(line
+		(name "")
+		(start 109.489 53.7522)
+		(end 86.239 53.7522)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 109.489 48.2522)
+		(end 86.239 48.2522)
+		(linewidth 1)
+	)
+	(rect
+		(name "")
+		(start 111.989 44.0022)
+		(end 109.489 41.5022)
+		(linewidth 1)
+	)
+	(rect
+		(name "")
+		(start 114.489 63.0022)
+		(end 106.989 38.5022)
+		(linewidth 1)
+	)
+	(rect
+		(name "")
+		(start 111.989 55.0022)
+		(end 109.489 52.5022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 84.489 45.5022)
+		(end 84.489 40.5022)
+		(linewidth 1)
+	)
+	(rect
+		(name "")
+		(start 111.989 49.5022)
+		(end 109.489 47.0022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 84.489 45.5022)
+		(end 81.989 43.0022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 84.239 61.7522)
+		(end 81.739 59.2522)
+		(linewidth 1)
+	)
+	(rect
+		(name "")
+		(start 111.989 60.5022)
+		(end 109.489 58.0022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 109.489 42.7522)
+		(end 84.489 42.7522)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 109.489 59.2522)
+		(end 81.739 59.2522)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 84.239 56.7522)
+		(end 81.739 59.2522)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 84.489 40.5022)
+		(end 81.989 43.0022)
+		(linewidth 1)
+	)
+	(tbtext "J3"
+		(name "")
+		(pos 119.239 51.0022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "1"
+		(name "")
+		(pos 105.239 62.0022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "95"
+		(name "")
+		(pos 89.989 50.5022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "I2C1"
+		(name "")
+		(pos 113.239 65.502)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "3"
+		(name "")
+		(pos 105.239 51.0022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "4"
+		(name "")
+		(pos 105.239 45.5022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "96"
+		(name "")
+		(pos 89.989 56.0022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "GND"
+		(name "")
+		(pos 81.239 43.0022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "+3.3V"
+		(name "")
+		(pos 81.239 59.2522)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "2"
+		(name "")
+		(pos 105.239 56.5022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "+3.3V"
+		(name "")
+		(pos 87.939 244.8022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(line
+		(name "")
+		(start 90.939 247.3022)
+		(end 88.439 244.8022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 90.939 242.3022)
+		(end 88.439 244.8022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 116.189 244.8022)
+		(end 88.439 244.8022)
+		(linewidth 1)
+	)
+	(tbtext "+3.3V"
+		(name "")
+		(pos 87.939 239.2022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(line
+		(name "")
+		(start 90.939 241.7022)
+		(end 88.439 239.2022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 90.939 236.7022)
+		(end 88.439 239.2022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 116.189 239.2022)
+		(end 88.439 239.2022)
+		(linewidth 1)
+	)
+	(tbtext "+3.3V"
+		(name "")
+		(pos 87.939 233.8022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(line
+		(name "")
+		(start 90.939 236.3022)
+		(end 88.439 233.8022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 90.939 231.3022)
+		(end 88.439 233.8022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 116.189 233.8022)
+		(end 88.439 233.8022)
+		(linewidth 1)
+	)
+	(tbtext "2"
+		(name "")
+		(pos 105.239 56.5022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "GND"
+		(name "")
+		(pos 81.239 43.0022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "1"
+		(name "")
+		(pos 105.239 62.0022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "3"
+		(name "")
+		(pos 105.239 51.0022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "+3.3V"
+		(name "")
+		(pos 81.239 59.2522)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "4"
+		(name "")
+		(pos 105.239 45.5022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "4"
+		(name "")
+		(pos 105.239 45.5022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "96"
+		(name "")
+		(pos 89.989 56.0022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "95"
+		(name "")
+		(pos 89.989 50.5022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "I2C1"
+		(name "")
+		(pos 113.239 65.502)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "3"
+		(name "")
+		(pos 105.239 51.0022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "1"
+		(name "")
+		(pos 105.239 62.0022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "GND"
+		(name "")
+		(pos 81.239 43.0022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "2"
+		(name "")
+		(pos 105.239 56.5022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "J3"
+		(name "")
+		(pos 119.239 51.0022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "+3.3V"
+		(name "")
+		(pos 81.239 59.2522)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "96"
+		(name "")
+		(pos 89.989 56.0022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "J3"
+		(name "")
+		(pos 119.239 51.0022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "I2C1"
+		(name "")
+		(pos 113.239 65.502)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "95"
+		(name "")
+		(pos 89.989 50.5022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(line
+		(name "")
+		(start 109.489 48.2522)
+		(end 86.239 48.2522)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 109.489 53.7522)
+		(end 86.239 53.7522)
+		(linewidth 1)
+	)
+	(rect
+		(name "")
+		(start 111.989 44.0022)
+		(end 109.489 41.5022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 84.239 61.7522)
+		(end 81.739 59.2522)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 84.489 45.5022)
+		(end 81.989 43.0022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 109.489 59.2522)
+		(end 81.739 59.2522)
+		(linewidth 1)
+	)
+	(rect
+		(name "")
+		(start 114.489 63.0022)
+		(end 106.989 38.5022)
+		(linewidth 1)
+	)
+	(rect
+		(name "")
+		(start 111.989 49.5022)
+		(end 109.489 47.0022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 84.239 56.7522)
+		(end 81.739 59.2522)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 84.489 45.5022)
+		(end 84.489 40.5022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 109.489 42.7522)
+		(end 84.489 42.7522)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 84.489 40.5022)
+		(end 81.989 43.0022)
+		(linewidth 1)
+	)
+	(rect
+		(name "")
+		(start 111.989 60.5022)
+		(end 109.489 58.0022)
+		(linewidth 1)
+	)
+	(rect
+		(name "")
+		(start 111.989 55.0022)
+		(end 109.489 52.5022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 109.489 53.7522)
+		(end 86.239 53.7522)
+		(linewidth 1)
+	)
+	(rect
+		(name "")
+		(start 111.989 49.5022)
+		(end 109.489 47.0022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 84.489 40.5022)
+		(end 81.989 43.0022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 109.489 48.2522)
+		(end 86.239 48.2522)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 84.239 61.7522)
+		(end 81.739 59.2522)
+		(linewidth 1)
+	)
+	(rect
+		(name "")
+		(start 111.989 60.5022)
+		(end 109.489 58.0022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 109.489 42.7522)
+		(end 84.489 42.7522)
+		(linewidth 1)
+	)
+	(rect
+		(name "")
+		(start 114.489 63.0022)
+		(end 106.989 38.5022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 84.239 56.7522)
+		(end 81.739 59.2522)
+		(linewidth 1)
+	)
+	(rect
+		(name "")
+		(start 111.989 55.0022)
+		(end 109.489 52.5022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 109.489 59.2522)
+		(end 81.739 59.2522)
+		(linewidth 1)
+	)
+	(rect
+		(name "")
+		(start 111.989 44.0022)
+		(end 109.489 41.5022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 84.489 45.5022)
+		(end 84.489 40.5022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 84.489 45.5022)
+		(end 81.989 43.0022)
+		(linewidth 1)
+	)
+	(tbtext "2"
+		(name "")
+		(pos 105.239 56.5022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "GND"
+		(name "")
+		(pos 81.239 43.0022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "1"
+		(name "")
+		(pos 105.239 62.0022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "3"
+		(name "")
+		(pos 105.239 51.0022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "+3.3V"
+		(name "")
+		(pos 81.239 59.2522)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "4"
+		(name "")
+		(pos 105.239 45.5022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "4"
+		(name "")
+		(pos 105.239 45.5022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "96"
+		(name "")
+		(pos 89.989 56.0022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "95"
+		(name "")
+		(pos 89.989 50.5022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "I2C1"
+		(name "")
+		(pos 113.239 65.502)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "3"
+		(name "")
+		(pos 105.239 51.0022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "1"
+		(name "")
+		(pos 105.239 62.0022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "GND"
+		(name "")
+		(pos 81.239 43.0022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "2"
+		(name "")
+		(pos 105.239 56.5022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "J3"
+		(name "")
+		(pos 119.239 51.0022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "+3.3V"
+		(name "")
+		(pos 81.239 59.2522)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "96"
+		(name "")
+		(pos 89.989 56.0022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "J3"
+		(name "")
+		(pos 119.239 51.0022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "I2C1"
+		(name "")
+		(pos 113.239 65.502)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "95"
+		(name "")
+		(pos 89.989 50.5022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(line
+		(name "")
+		(start 109.489 48.2522)
+		(end 86.239 48.2522)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 109.489 53.7522)
+		(end 86.239 53.7522)
+		(linewidth 1)
+	)
+	(rect
+		(name "")
+		(start 111.989 44.0022)
+		(end 109.489 41.5022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 84.239 61.7522)
+		(end 81.739 59.2522)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 84.489 45.5022)
+		(end 81.989 43.0022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 109.489 59.2522)
+		(end 81.739 59.2522)
+		(linewidth 1)
+	)
+	(rect
+		(name "")
+		(start 114.489 63.0022)
+		(end 106.989 38.5022)
+		(linewidth 1)
+	)
+	(rect
+		(name "")
+		(start 111.989 49.5022)
+		(end 109.489 47.0022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 84.239 56.7522)
+		(end 81.739 59.2522)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 84.489 45.5022)
+		(end 84.489 40.5022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 109.489 42.7522)
+		(end 84.489 42.7522)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 84.489 40.5022)
+		(end 81.989 43.0022)
+		(linewidth 1)
+	)
+	(rect
+		(name "")
+		(start 111.989 60.5022)
+		(end 109.489 58.0022)
+		(linewidth 1)
+	)
+	(rect
+		(name "")
+		(start 111.989 55.0022)
+		(end 109.489 52.5022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 109.489 53.7522)
+		(end 86.239 53.7522)
+		(linewidth 1)
+	)
+	(rect
+		(name "")
+		(start 111.989 49.5022)
+		(end 109.489 47.0022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 84.489 40.5022)
+		(end 81.989 43.0022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 109.489 48.2522)
+		(end 86.239 48.2522)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 84.239 61.7522)
+		(end 81.739 59.2522)
+		(linewidth 1)
+	)
+	(rect
+		(name "")
+		(start 111.989 60.5022)
+		(end 109.489 58.0022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 109.489 42.7522)
+		(end 84.489 42.7522)
+		(linewidth 1)
+	)
+	(rect
+		(name "")
+		(start 114.489 63.0022)
+		(end 106.989 38.5022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 84.239 56.7522)
+		(end 81.739 59.2522)
+		(linewidth 1)
+	)
+	(rect
+		(name "")
+		(start 111.989 55.0022)
+		(end 109.489 52.5022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 109.489 59.2522)
+		(end 81.739 59.2522)
+		(linewidth 1)
+	)
+	(rect
+		(name "")
+		(start 111.989 44.0022)
+		(end 109.489 41.5022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 84.489 45.5022)
+		(end 84.489 40.5022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 84.489 45.5022)
+		(end 81.989 43.0022)
+		(linewidth 1)
+	)
+	(tbtext "2"
+		(name "")
+		(pos 62.989 247.5022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "1"
+		(name "")
+		(pos 62.989 253.0022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "3"
+		(name "")
+		(pos 62.989 242.0022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "4"
+		(name "")
+		(pos 62.989 236.5022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "4"
+		(name "")
+		(pos 62.989 236.5022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "3"
+		(name "")
+		(pos 62.989 242.0022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "1"
+		(name "")
+		(pos 62.989 253.0022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "GND"
+		(name "")
+		(pos 38.989 234.0022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "2"
+		(name "")
+		(pos 62.989 247.5022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(tbtext "GND1"
+		(name "")
+		(pos 72.389 256.4022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(rect
+		(name "")
+		(start 69.739 240.5022)
+		(end 67.239 238.0022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 42.239 236.5022)
+		(end 42.239 231.5022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 67.239 233.7522)
+		(end 42.239 233.7522)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 42.239 231.5022)
+		(end 39.739 234.0022)
+		(linewidth 1)
+	)
+	(rect
+		(name "")
+		(start 69.739 251.5022)
+		(end 67.239 249.0022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 42.239 231.5022)
+		(end 39.739 234.0022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 67.239 233.7522)
+		(end 42.239 233.7522)
+		(linewidth 1)
+	)
+	(rect
+		(name "")
+		(start 72.239 254.0022)
+		(end 64.739 229.5022)
+		(linewidth 1)
+	)
+	(rect
+		(name "")
+		(start 69.739 246.0022)
+		(end 67.239 243.5022)
+		(linewidth 1)
+	)
+	(rect
+		(name "")
+		(start 69.739 235.0022)
+		(end 67.239 232.5022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 42.239 236.5022)
+		(end 42.239 231.5022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 42.239 236.5022)
+		(end 39.739 234.0022)
+		(linewidth 1)
+	)
+	(tbtext "GND"
+		(name "")
+		(pos 38.939 239.4522)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(line
+		(name "")
+		(start 42.189 236.9522)
+		(end 39.689 239.4522)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 42.189 241.9522)
+		(end 42.189 236.9522)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 42.189 241.9522)
+		(end 39.689 239.4522)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 67.189 239.2022)
+		(end 42.189 239.2022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 42.189 241.9522)
+		(end 42.189 236.9522)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 42.189 236.9522)
+		(end 39.689 239.4522)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 67.189 239.2022)
+		(end 42.189 239.2022)
+		(linewidth 1)
+	)
+	(tbtext "GND"
+		(name "")
+		(pos 38.989 234.0022)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(line
+		(name "")
+		(start 42.239 231.5022)
+		(end 39.739 234.0022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 42.239 236.5022)
+		(end 42.239 231.5022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 42.239 236.5022)
+		(end 39.739 234.0022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 67.239 233.7522)
+		(end 42.239 233.7522)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 42.239 236.5022)
+		(end 42.239 231.5022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 42.239 231.5022)
+		(end 39.739 234.0022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 67.239 233.7522)
+		(end 42.239 233.7522)
+		(linewidth 1)
+	)
+	(tbtext "GND"
+		(name "")
+		(pos 38.939 245.0522)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(line
+		(name "")
+		(start 42.189 242.5522)
+		(end 39.689 245.0522)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 42.189 247.5522)
+		(end 42.189 242.5522)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 42.189 247.5522)
+		(end 39.689 245.0522)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 67.189 244.8022)
+		(end 42.189 244.8022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 42.189 247.5522)
+		(end 42.189 242.5522)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 42.189 242.5522)
+		(end 39.689 245.0522)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 67.189 244.8022)
+		(end 42.189 244.8022)
+		(linewidth 1)
+	)
+	(tbtext "GND"
+		(name "")
+		(pos 38.939 250.4522)
+		(font
+			(linewidth 1)
+			(size 2 2)
+		)
+	)
+	(line
+		(name "")
+		(start 42.189 247.9522)
+		(end 39.689 250.4522)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 42.189 252.9522)
+		(end 42.189 247.9522)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 42.189 252.9522)
+		(end 39.689 250.4522)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 67.189 250.2022)
+		(end 42.189 250.2022)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 42.189 252.9522)
+		(end 42.189 247.9522)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 42.189 247.9522)
+		(end 39.689 250.4522)
+		(linewidth 1)
+	)
+	(line
+		(name "")
+		(start 67.189 250.2022)
+		(end 42.189 250.2022)
 		(linewidth 1)
 	)
 )
